@@ -1,14 +1,18 @@
 # :rocket: Quick Benchmarking
 
 ## Introduction
-Welcome to our benchmarking project! Here, we are conducting performance tests to evaluate different HTTP frameworks in Go. The goal is to better understand how each framework performs under heavy loads and identify which one offers the best performance for different scenarios.
+Welcome to our benchmarking project! Here, we are conducting performance tests to evaluate different HTTP frameworks in Go. The goal is to better understand how each framework performs under heavy loads and identify which one offers the best performance for different scenarios. for acces the quick benchmark [click here](https://github.com/jeffotoni/quick/blob/main/benchmarks/README.md) 
 
 ## Tools Used
 
 To ensure accurate and reliable benchmarking, we use two powerful load-testing tools:
 
-- **[k6](./k6/README.md)**: An open-source tool designed for performance and load testing, known for its ease of use and advanced metric analysis.
-- **[Vegeta](./vegeta/README.md)**: A highly efficient and flexible load tester that allows custom attack configurations to measure server capacity.
+## 🔧 Tools Used
+
+| Tool | Purpose | Key Metrics | |
+|------|---------|-------------|-
+| [k6](./k6/README.md) | Scenario-based load testing | RPS, Duration, Error Rate | 
+| [Vegeta](./vegeta/README.md) | High-volume HTTP benchmarking | Latency, Percentiles 
 
 ## What Are We Measuring?
 Our benchmarking evaluates essential metrics, including:
