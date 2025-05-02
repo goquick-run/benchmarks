@@ -11,8 +11,8 @@ To ensure accurate and reliable benchmarking, we use two powerful load-testing t
 
 | Tool | Purpose | Key Metrics | |
 |------|---------|-------------|-
-| [k6](./k6/README.md) | Scenario-based load testing | RPS, Duration, Error Rate | 
-| [Vegeta](./vegeta/README.md) | High-volume HTTP benchmarking | Latency, Percentiles 
+| [k6](https://github.com/goquick-run/benchmarks/blob/main/quick/k6/README.md) | Scenario-based load testing | RPS, Duration, Error Rate | 
+| [Vegeta](https://github.com/goquick-run/benchmarks/blob/main/quick/vegeta/README.md) | High-volume HTTP benchmarking | Latency, Percentiles 
 
 ## What Are We Measuring?
 Our benchmarking evaluates essential metrics, including:
@@ -30,14 +30,14 @@ The project is organized into directories, each containing its own tests and con
 - **latency comparison with vegeta**
   ![Número de Requisições](full-frameworks-comparation.png)
 
-:file_folder: **k6/** - Load tests using k6. See the [k6 README](./k6/README.md) for details.
+:file_folder: **k6/** - Load tests using k6. See the [k6 README](https://github.com/goquick-run/benchmarks/blob/main/quick/k6/README.md) for details.
 
 **The graphs below represent the number of request por second in K6**
 
 - **Number of Requests per Second and Avg Duration (s) In K6**
   ![Number of Requests and Avg Duration (s)](grafico-full-v2.png)
 
-:file_folder: **vegeta/** - Load tests using Vegeta. See the [Vegeta README](./vegeta/README.md) for details.
+:file_folder: **vegeta/** - Load tests using Vegeta. See the [Vegeta README](https://github.com/goquick-run/benchmarks/blob/main/quick/vegeta/README.md) for details.
 
 ## :pushpin: Results  
 ### Latency Comparison (Vegeta)  
