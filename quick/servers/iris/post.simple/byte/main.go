@@ -1,7 +1,7 @@
 package main
 
-// import (
-// 	"log"
+ import (
+	"log"
  	"github.com/kataras/iris/v12"
  )
  // $ curl --location 'http://localhost:8080/v1/user' \
